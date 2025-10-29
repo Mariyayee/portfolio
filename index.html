@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariyayee | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Mariyayee<span>.</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Mariyayee</span></h2>
+      <p>An aspiring <strong>ECE Artist & Designer</strong> with a passion for technology and creativity.<br>
+         Skilled in programming, design, and innovation — fluent in Tamil & English.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m Mariyayee, a creative and passionate ECE student who loves designing, coding, and learning new technologies.
+        I completed my 12th standard with <strong>530/600 (88.3%)</strong>.  
+        I’m fluent in <strong>Tamil</strong> and <strong>English</strong>, and I enjoy expressing my ideas through both art and code.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Data Structure</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Python Project</h3>
+          <p>Developed an interactive application using Python with a focus on functionality and clean UI.</p>
+        </div>
+        <div class="project-card">
+          <h3>Data Structure Project</h3>
+          <p>Implemented efficient algorithms and data storage techniques for faster computation.</p>
+        </div>
+        <div class="project-card">
+          <h3>DBMS Project</h3>
+          <p>Created a database-driven system with SQL integration and user-friendly interfaces.</p>
+        </div>
+        <div class="project-card">
+          <h3>Java Project</h3>
+          <p>Built a Java-based mini-project demonstrating OOP principles and clean modular design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Courses Section ===== -->
+  <section id="courses" class="section">
+    <div class="container">
+      <h2>Certifications & NPTEL Courses</h2>
+      <div class="courses-list">
+        <div class="course-card">
+          <h3>Python for Data Science</h3>
+          <p>Completed through NPTEL – focusing on data analysis and Python libraries.</p>
+        </div>
+        <div class="course-card">
+          <h3>Microsensor and Nano Sensor</h3>
+          <p>Learned about micro and nano-scale sensors and their real-world applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to collaborate or learn more about my work, feel free to contact me below!</p>
+
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <p id="form-status"></p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2025 Mariyayee | Designed with ❤️ by Mariyayee</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
